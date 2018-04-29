@@ -14,11 +14,7 @@ public class _8 {
 		if (b != null)
 			numeroB = b.toString().toCharArray();
 		
-		if (numeroA.length > numeroB.length) {
-			maiorTamanho = numeroA.length;
-		} else {
-			maiorTamanho = numeroB.length;
-		}
+		maiorTamanho = (numeroA.length > numeroB.length) ? numeroA.length : numeroB.length;
 			
 		for (int i = 0; i < maiorTamanho; i++) {
 			if (numeroA.length > 0 && numeroA.length > i) {
@@ -27,7 +23,6 @@ public class _8 {
 			if (numeroB.length > 0 && numeroB.length > i) {
 				numeroC += String.valueOf(numeroB[i]);
 			}
-			System.out.println(numeroC);
 		}
 		
 		try {
