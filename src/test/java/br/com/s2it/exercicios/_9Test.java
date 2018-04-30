@@ -30,8 +30,7 @@ public class _9Test {
 		minhaArvore.inserir(arvore, 1);
 		minhaArvore.inserir(arvore, 9);
 		minhaArvore.inserir(arvore, 21);
-		assertEquals(0, minhaArvore.somarNo(arvore.esquerda));
-		assertEquals(15, minhaArvore.somarNo(arvore.direita));
+		assertEquals(37, minhaArvore.somarNo(arvore));
 	}
 
 }
